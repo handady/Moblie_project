@@ -1,7 +1,7 @@
 <template>
     <div class="store">
-        <div v-for="(item,index) in data" :key="index" class="store_item">
-            <img :src="item.pic" alt="">
+        <div v-for="(item,index) in data" :key="index" class="store_item" @click="toShop(item.title)">
+            <img :src="require(`../../../public/img/${item.title}.png`)" alt="">
             <div class="text">
                 <div class="title">{{item.title}}</div>
                 <div class="sale">月售{{item.sales}}</div>
@@ -15,10 +15,25 @@
 </template>
 
 <script>
+import {useRouter} from 'vue-router'
 
 export default {
     name:'Store',
     props:['data'],
+    setup(){
+        const router = useRouter()
+        function toShop(title){
+            router.push({
+                path:'/MyStore',
+                query:{
+                    title:title
+                }
+            })
+        }
+        return {
+            toShop
+        }
+    }
 }
 </script>
 

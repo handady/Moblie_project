@@ -80,28 +80,26 @@ export default {
             tab: "天天神券",
             data: [
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
+                    
+                pic: "../../../public/img/22.png",
                 title: "22",
                 sales: "2233",
                 price: "20",
                 label: ["门店上新", "很下饭"],
                 },
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F8065566277f33d6dd99ffe936ac4c8c1ca39d3ba.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468487&t=285f7a6037e92345e323b61f7a21d4c5",
                 title: "33",
                 sales: "2233",
                 price: "20",
                 label: ["门店上新", "很下饭"],
                 },
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
                 label: ["门店上新", "很下饭"],
                 },
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
@@ -113,7 +111,6 @@ export default {
             tab: "减配送费",
             data: [
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
@@ -125,14 +122,12 @@ export default {
             tab: "点评高分",
             data: [
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
                 label: ["门店上新", "很下饭"],
                 },
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
@@ -143,15 +138,13 @@ export default {
             {
             tab: "会员满减",
             data: [
-                {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
+                {                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ftvax3.sinaimg.cn%2Fcrop.0.0.400.400.180%2F006f1wigly8fspn2n6hcrj30b40b4jsw.jpg%3FKID%3Dimgbed%2Ctva%26Expires%3D1645083791%26ssig%3DH%252FhU4kAZy%252F&refer=http%3A%2F%2Ftvax3.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468438&t=404e9a65765794dd4b89bea2ce3ce686",
                 title: "22",
                 sales: "2233",
                 price: "20",
                 label: ["门店上新", "很下饭"],
                 },
                 {
-                pic: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F8065566277f33d6dd99ffe936ac4c8c1ca39d3ba.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653468487&t=285f7a6037e92345e323b61f7a21d4c5",
                 title: "33",
                 sales: "2233",
                 price: "20",
