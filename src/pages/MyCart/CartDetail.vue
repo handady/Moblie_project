@@ -149,6 +149,9 @@ export default {
     .submit_bar{
         position: absolute;
         bottom:50px;
+        max-width: 620px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .submit_delete{
         display: flex;
@@ -157,6 +160,9 @@ export default {
         bottom:50px;
         width: 100%;
         padding: 10px 16px 10px 16px;
+        max-width: 620px;
+        left: 50%;
+        transform: translateX(-50%);
         .delete{
             background-color: red;
             width: 70px;
@@ -168,4 +174,8 @@ export default {
             line-height: 30px;
         }
     }
+    .test{
+          max-width: 620px;
+          margin: 0 auto;
+        }
 </style>

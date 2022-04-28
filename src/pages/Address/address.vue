@@ -1,6 +1,6 @@
 <template>
   <shop-header  title="地址管理"></shop-header>
-  <div class="content">
+  <div class="content test">
       <van-address-list
         :list="list"
         default-tag-text="默认"
@@ -77,5 +77,10 @@ export default {
 <style lang="less" scoped>
     /deep/ .van-radio__icon{
         display: none;
+    }
+    /deep/ .van-address-list__bottom{
+      max-width: 620px;
+      left: 50%;
+      transform: translateX(-50%);
     }
 </style>

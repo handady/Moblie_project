@@ -108,6 +108,9 @@ export default {
         width: 100%;
         padding: 15px;
         background-color: rgba(236, 233, 233, 0.732);
+        max-width: 620px;
+        left: 50%;
+        transform: translateX(-50%);
         .head{
             display: flex;
             justify-content: space-between;

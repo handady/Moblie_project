@@ -13,13 +13,14 @@
                 </van-tab>
             </van-tabs>
         </div>
+        <van-action-bar class="test">
+        <van-action-bar-icon icon="chat-o" text="客服" @click="kefu"/>
+        <van-action-bar-icon icon="cart-o" text="购物车" @click="goToCart" :badge="store.state.cartlist.length" />
+        <van-action-bar-button type="warning" text="加入购物车" @click="addCart('choose')"/>
+        <van-action-bar-button type="danger" text="立即购买" @click="buyNow" />
+      </van-action-bar>
     </div>
-    <van-action-bar>
-      <van-action-bar-icon icon="chat-o" text="客服" @click="kefu"/>
-      <van-action-bar-icon icon="cart-o" text="购物车" @click="goToCart" :badge="store.state.cartlist.length" />
-      <van-action-bar-button type="warning" text="加入购物车" @click="addCart('choose')"/>
-      <van-action-bar-button type="danger" text="立即购买" @click="buyNow" />
-    </van-action-bar>
+    
 </template>
 
 <script>
@@ -178,6 +179,10 @@ export default {
                     border-radius: 10px;
                 }
             }
+        }
+        .test{
+          max-width: 620px;
+          margin: 0 auto;
         }
     }
 </style>
